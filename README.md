@@ -14,12 +14,13 @@ This platform allows users to search and apply for jobs, while employers can pos
 * Browse and search jobs
 * Apply for jobs
 * Forgot Password with OTP verification
-* Profile Management (update personal details, resume, etc.)
+* Profile Management (update personal details, experince, photo, certificate, etc.)
 * Dark Mode / Light Mode toggle 🌙☀️
 
 ### 🏢 Employer Features
 
 * Post new job listings
+* Profile Management
 * Edit/Delete jobs
 * View applicants
 * Manage company profile
