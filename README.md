@@ -14,6 +14,7 @@ This platform allows users to search and apply for jobs, while employers can pos
 * Browse and search jobs
 * Apply for jobs
 * Forgot Password with OTP verification
+* Profile Management (update personal details, resume, etc.)
 * Dark Mode / Light Mode toggle 🌙☀️
 
 ### 🏢 Employer Features
@@ -21,6 +22,7 @@ This platform allows users to search and apply for jobs, while employers can pos
 * Post new job listings
 * Edit/Delete jobs
 * View applicants
+* Manage company profile
 
 ---
 
@@ -46,7 +48,7 @@ This platform allows users to search and apply for jobs, while employers can pos
 
 ## 📁 Project Structure
 
-```
+```id="0sz33k"
 JOB-Portal/
 │
 ├── frontend/        # React + TypeScript + Tailwind
@@ -61,6 +63,15 @@ JOB-Portal/
 * Secure login using **JWT (JSON Web Token)**
 * Protected routes for users and employers
 * Token-based session management
+
+---
+
+## 👤 Profile Management
+
+* Update user information (name, email, phone, etc.)
+* Upload and manage resume
+* Edit profile anytime
+* Separate profile handling for users and employers
 
 ---
 
@@ -85,7 +96,7 @@ JOB-Portal/
 
 ### 1️⃣ Clone Repository
 
-```
+```id="q95fpg"
 git clone https://github.com/your-username/your-repo.git
 cd JOB-Portal
 ```
@@ -102,34 +113,11 @@ cd JOB-Portal
 
 ### 3️⃣ Frontend Setup
 
-```
+```id="k6z6c3"
 cd frontend
 npm install
 npm run dev
 ```
-
----
-
-## 🔐 Environment Variables
-
-### Frontend (.env)
-
-```
-VITE_API_URL=http://localhost:8080
-```
-
-### Backend (application.properties)
-
-```
-spring.data.mongodb.uri=mongodb://localhost:27017/jobportal
-jwt.secret=your_secret_key
-```
-
----
-
-## 📸 Screenshots
-
-(Add your UI screenshots here)
 
 ---
 
@@ -145,11 +133,4 @@ This project is open-source and available under the MIT License.
 
 ---
 
-## 👨‍💻 Author
 
-**Sunil Sharma**
-
-* BCA Student
-* Full Stack Developer 🚀
-
----
